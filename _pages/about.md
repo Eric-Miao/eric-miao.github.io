@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-permalink: /  
+permalink: /eric/  
 subtitle: *“莫见乎隐，莫显乎微，故君子慎其独也”*
 
 profile:
