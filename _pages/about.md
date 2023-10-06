@@ -6,7 +6,7 @@ subtitle: “莫见乎隐，莫显乎微，故君子慎其独也”
 
 profile:
   align: right
-  image: profile_pic.jpg
+  image: profile_pic.JPG
   image_circular: false # crops the image to make it circular
   address: >
     <p>Berkeley, California, USA | Shanghai, China</p>
