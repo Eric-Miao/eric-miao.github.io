@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /  
-subtitle: “莫见乎隐，莫显乎微，故君子慎其独也”
+subtitle: *“莫见乎隐，莫显乎微，故君子慎其独也”*
 
 profile:
   align: right
@@ -23,15 +23,15 @@ Hi, my name is Yuxin (Eric) Miao. I am a Master of [Development Engineering](htt
 
 Prior to more detailed experiences, you can find most of my key information below.
 
--- [**Github**](https://github.com/Eric-Miao)
--- [**LinkedIn**](https://www.linkedin.com/in/cnyteric)
--- [**Full CV/Resume**](/cv/)
--- **Name:** Yuxin (Eric) Miao
--- **Email:** [cnyt-eric@hotmail.com](mailto:cnyt-eric@hotmail.com)/[yuxin_miao@berkeley.edu](mailto:yuxin_miao@berkeley.edu)
--- **Phone:** +1(510)499-9531
--- **Career Interests:** ML Engineer, Data Scientist, etc.
--- **Location Preference:** Bay Area, Seattle, New York, Boston, Remote, Shanghai 
--- **Major Skills:** Python(6yr+), Data Analysis(5yr+), SQL(4yr+), Machine Learning(3yr+), Data Product Development(1yr+), etc. 
+- **-**[**Github**](https://github.com/Eric-Miao)
+- **-**[**LinkedIn**](https://www.linkedin.com/in/cnyteric)
+- **-**[**Full CV/Resume**](/cv/)
+- **-Name:** Yuxin (Eric) Miao
+- **-Email:** [cnyt-eric@hotmail.com](mailto:cnyt-eric@hotmail.com)/[yuxin_miao@berkeley.edu](mailto:yuxin_miao@berkeley.edu)
+- **-Phone:** +1(510)499-9531
+- **-Career Interests:** ML Engineer, Data Scientist, etc.
+- **-Location Preference:** Bay Area, Seattle, New York, Boston, Remote, Shanghai 
+- **-Major Skills:** Python(6yr+), Data Analysis(5yr+), SQL(4yr+), Machine Learning(3yr+), Data Product Development(1yr+), etc. 
 
 
 ## Experiences
@@ -50,5 +50,5 @@ I believe there are several different phases of digital transformation. Starting
 I have seen many companies stuck at the first step, and I want to help them to move forward. You can find more about my thoughts on digital transformation in this [post](/blog/)
 
 
-# My Lovely Podcast
+## My Lovely Podcast
 Apart from my professional trainings, I have my own Podcast channel (English episodes are on the way, trust me :satisfied:). It is called [TwentyPlus](https://podcasters.spotify.com/pod/show/twentyplus), where me and my friends share our observations and thoughts about the world from a perspective of a 20+ year old. It's pretty interesting, please check it out.
