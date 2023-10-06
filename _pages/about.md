@@ -1,10 +1,10 @@
 ---
 layout: about
 title: about
-permalink: /eric/  
+permalink: /
 subtitle: *“莫见乎隐，莫显乎微，故君子慎其独也”*
 
-profile:
+profile:  
   align: right
   image: profile_pic.JPG
   image_circular: false # crops the image to make it circular
