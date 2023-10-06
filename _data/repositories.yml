@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Eric-Miao
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - Eric-Miao/Taiwan-Housing-Price-Prediction
+  - Eric-Miao/INFO251-Job_Scam_Detection
+  - Eric-Miao/Elevator-control-system

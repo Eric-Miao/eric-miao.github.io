@@ -3,7 +3,7 @@ layout: cv
 permalink: /cv/
 title: cv
 nav: true
-nav_order: 4
-cv_pdf: example_pdf.pdf
-description: This is a description of the page. You can modify it in 'pages/_cv.md'. You can also change or remove the top pdf download button.
+nav_order: 1
+cv_pdf: Resume_YuxinMiao_Berkeley_Oct05.pdf
+description: You can download my latest resume here (October 5th version).
 ---
