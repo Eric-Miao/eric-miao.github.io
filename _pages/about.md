@@ -23,15 +23,15 @@ Hi, my name is Yuxin (Eric) Miao. I am a Master of [Development Engineering](htt
 
 Prior to more detailed experiences, you can find most of my key information below.
 
-- **-**[**Github**](https://github.com/Eric-Miao)
-- **-**[**LinkedIn**](https://www.linkedin.com/in/cnyteric)
-- **-**[**Full CV/Resume**](/cv/)
-- **-Name:** Yuxin (Eric) Miao
-- **-Email:** [cnyt-eric@hotmail.com](mailto:cnyt-eric@hotmail.com)/[yuxin_miao@berkeley.edu](mailto:yuxin_miao@berkeley.edu)
-- **-Phone:** +1(510)499-9531
-- **-Career Interests:** ML Engineer, Data Scientist, etc.
-- **-Location Preference:** Bay Area, Seattle, New York, Boston, Remote, Shanghai 
-- **-Major Skills:** Python(6yr+), Data Analysis(5yr+), SQL(4yr+), Machine Learning(3yr+), Data Product Development(1yr+), etc. 
+- [**Github**](https://github.com/Eric-Miao)
+- [**LinkedIn**](https://www.linkedin.com/in/cnyteric)
+- [**Full CV/Resume**](/cv/)
+- **Name:** Yuxin (Eric) Miao
+- **Email:** [cnyt-eric@hotmail.com](mailto:cnyt-eric@hotmail.com)/[yuxin_miao@berkeley.edu](mailto:yuxin_miao@berkeley.edu)
+- **Phone:** +1(510)499-9531
+- **Career Interests:** ML Engineer, Data Scientist, etc.
+- **Location Preference:** Bay Area, Seattle, New York, Boston, Remote, Shanghai 
+- **Major Skills:** Python(6yr+), Data Analysis(5yr+), SQL(4yr+), Machine Learning(3yr+), Data Product Development(1yr+), etc. 
 
 
 ## Experiences
