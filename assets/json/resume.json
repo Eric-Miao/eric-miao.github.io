@@ -1,37 +1,65 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Yuxin (Eric) Miao",
+    "label": "Machine Learning Engineer & Data Scientists",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "cnyt-eric@hotmail.com",
+    "phone": "+1(510)499-9531",
+    "url": "",
+    "summary": "I am a machine learning engineer and data scientist, I want to devote myself to digital transformation and help companies to make better decisions with data.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "17xx Francisco St.",
+      "postalCode": "CA 94703",
+      "city": "Berkeley",
       "countryCode": "US",
       "region": "California"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Github",
+        "username": "Eric-Miao",
+        "url": "https://github.com/Eric-Miao"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Yuxin (Eric) Miao",
+        "url": "https://www.linkedin.com/in/cnyteric/"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
+      "name": "Walmart",
+      "position": "Machine Learning Engineer Intern @Sourcing",
+      "url": "",
+      "startDate": "2023-06-04",
+      "endDate": "2023-08-29",
+      "summary": "HelpDesk Chatbot Development:\n- Devised a Large Language Model Chatbot, acted like ChatGPT and answered internal technical questions.\n- Derived the method with limited GPU resources, fine-tuned a 1B parameter model locally, yielded an 80% accuracy.\n- The Bot is now internally online to assist the daily operation inside the Walmart Sourcing department.",
+      "highlights": [
+        "LLM powered chatbot"
+      ]
+    },
+    {
+      "name": "University of Zurich",
       "position": "Professor of Theoretical Physics",
       "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "startDate": "1921-01-01",
+      "endDate": "1921-01-01",
+      "summary": "While at the University of Zurich, I wrote my first groundbreaking work referred to today as the Annus Mirabilis Papers.",
       "highlights": [
-        "Relativity"
+        "Quantum Theory",
+        "Thermodynamics"
+      ]
+    },
+    {
+      "name": "Swiss Patent Office",
+      "position": "Technical Expert, Third Class",
+      "url": "https://example.com",
+      "startDate": "1905-01-01",
+      "endDate": "1905-01-01",
+      "summary": "Responsible for evaluating the patent applications for electromagnetic devices.",
+      "highlights": [
+        "Received promotion to Technical Expert, Second Class after 6 months of employment."
       ]
     }
   ],
