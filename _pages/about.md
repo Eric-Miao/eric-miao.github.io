@@ -19,13 +19,16 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi, my name is Yuxin (Eric) Miao. I am a Master of [Development Engineering](https://developmentengineering.berkeley.edu/) student at UC Berkeley. I am interested in the intersection of Machine Learning and social impact and my capstone project is Methane Detection and Characterization with Squishy Robotics. I graduated from ShanghaiTech University majoring in CS with a B.Eng Degree and a minor in Finance. 
+Hi, my name is Yuxin (Eric) Miao.  
+I am a Master of [Development Engineering](https://developmentengineering.berkeley.edu/) student at UC Berkeley.  
+I graduated from ShanghaiTech University majoring in CS with a B.Eng Degree and a minor in Finance.  
+I am interested in the intersection of Machine Learning and social impact and my capstone project is Methane Detection and Characterization with Squishy Robotics.  
 
 Prior to more detailed experiences, you can find most of my key information below.
 
-- **Github**[link](https://github.com/Eric-Miao)
-- **LinkedIn**[link](https://www.linkedin.com/in/cnyteric)
-- **Full CV/Resume**[link](/cv/)
+- **Github**([link](https://github.com/Eric-Miao))
+- **LinkedIn**([link](https://www.linkedin.com/in/cnyteric))
+- **Full CV/Resume**([link](/cv/))
 - **Name:** Yuxin (Eric) Miao
 - **Email:** [cnyt-eric@hotmail.com](mailto:cnyt-eric@hotmail.com)/[yuxin_miao@berkeley.edu](mailto:yuxin_miao@berkeley.edu)
 - **Phone:** +1(510)499-9531
@@ -33,6 +36,10 @@ Prior to more detailed experiences, you can find most of my key information belo
 - **Location Preference:** Bay Area, Seattle, New York, Boston, Remote, Shanghai
 - **Major Skills:** Python(*6yr+*), Data Analysis(*5yr+*), SQL(*4yr+*), Machine Learning(*3yr+*), LLM Development(*1yr+*), Data Product Development(*1yr+*), etc.
 - **Languages:** English, Chinese(Mandarin)
+- **Highlights:**
+  1. Developed and trained an LLM chatbot at Walmart in a team of 2.
+  2. Designed a segmentation algorithm for online consumers at Alibaba assisting advertising business in a team of 2.
+  3. Experience in digital transformation projects in Retail, E-commerce, Catering, Manufacturing, etc.
 
 ## Experiences
 
