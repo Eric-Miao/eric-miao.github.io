@@ -29,14 +29,26 @@
   },
   "work": [
     {
-      "name": "Walmart",
-      "position": "Machine Learning Engineer Intern @Sourcing",
+      "name": "UB Berkeley, Goldman School of Public Policy",
+      "position": "Graudate Student Instructor of Statistical Method for Development",
+      "url": "",
+      "startDate": "2023-08-15",
+      "endDate": "2023-12-15",
+      "summary": "Teaching Assistant for Statistical Method for Development, a graduate-level course at UC Berkeley Goldman School of Public Policy. The course covers the basic statistical methods for data analysis and inference, including descriptive statistics, probability, hypothesis testing, and regression analysis. The course is designed for students with little or no background in statistics.",
+      "highlights": [
+        "Statictics","Hypothesis Testing","Regression Analysis"
+      ]
+    },    
+    {
+      "name": "Walmart Sourcing",
+      "position": "Machine Learning Engineer Intern",
       "url": "",
       "startDate": "2023-06-04",
       "endDate": "2023-08-29",
       "summary": "HelpDesk Chatbot Development:\n- Devised a Large Language Model Chatbot, acted like ChatGPT and answered internal technical questions.\n- Derived the method with limited GPU resources, fine-tuned a 1B parameter model locally, yielded an 80% accuracy.\n- The Bot is now internally online to assist the daily operation inside the Walmart Sourcing department.",
       "highlights": [
         "LLM powered chatbot"
+
       ]
     }
   ],
@@ -63,7 +75,13 @@
       "endDate": "2021-7-01",
       "score": "3.63",
       "courses": [
-        "Artificial Intelligence","Database Management System","Computer Architecture","Operating System","Data Structure and Algorithm","Computer Network","Machine Learning"
+        "Artificial Intelligence",
+        "Database Management System",
+        "Computer Architecture",
+        "Operating System",
+        "Data Structure and Algorithm",
+        "Computer Network",
+        "Machine Learning"
       ]
     }
   ],
