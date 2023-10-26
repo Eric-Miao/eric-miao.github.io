@@ -37,25 +37,29 @@ Data analysis typically refers to a broad range, from basic Excel, to data dashb
 
 Regarding the effects that such a membership operation marketing system can achieve, I can use a very simple example. When applied to a large-scale member group, there will be differences, but the individual in the example actually represents a class of people. Therefore, the purpose and method of large-scale analysis are similar.
 
->Ms. Yang likes to buy pies from the chain store at the entrance of her community when she gets off work. There's a reason she >buys pies at this time, because after 6:30 pm, the seaweed pies are discounted.
->
->For a CRM system, we can determine that Ms. Yang is price-sensitive but not taste-sensitive, using the following methods:
->
->1. Analyze Ms. Yang's past purchase records, comparing the number of discounted purchases to the total number of purchases, >and the amount spent on discounted items to the total amount spent.
->2. Analyze the frequency and proportion of Ms. Yang's purchases during discount periods.
->We can validate (promote, reach out, market) using the following methods:
->1. Issue Ms. Yang coupons for other products (new products) and record the coupon usage.
->2. Push referral promotions to Ms. Yang and record her social influence (to identify KOCs).
->3. Issue Ms. Yang high-value coupons with a high spending threshold to encourage her to increase purchase frequency/average order value.
->4. Etc.
->
->Recently, Ms. Yang noticed that the chain store near her home launched a new braised flavor product. However, after purchasing it once, she did not repurchase. How can the CRM system determine if it's a. an issue with Ms. Yang personally, b. a pricing issue, or c. a quality issue with the braised product?
->Prerequisites: 1. There has been a price-based A/B test for the new product launch. 2. Repurchase interval difference = the difference in time intervals between two consecutive repurchases.
->
->1. Check the repurchase interval difference in different price ranges of the A/B test. If it's independent of the price, then it's not a pricing issue.
->2. Check the repurchase interval difference in different stores. If it's independent of the store, then it's not a store issue (errors caused by individual stores).
->3. Compare the repurchase interval difference of other people with Ms. Yang's. If there's no difference, it's not an issue with Ms. Yang (more likely a product/quality issue).
->4. Otherwise, it's an issue specific to Ms. Yang. If she's a VIP customer, a targeted survey should be issued.
+#### A small example
+
+Ms. Yang likes to buy pies from the chain store at the entrance of her community when she gets off work. There's a reason she buys pies at this time, because after 6:30 pm, the seaweed pies are discounted.
+
+For a CRM system, we can determine that Ms. Yang is price-sensitive but not taste-sensitive, using the following methods:
+
+1. Analyze Ms. Yang's past purchase records, comparing the number of discounted purchases to the total number of purchases, >and the amount spent on discounted items to the total amount spent.
+2. Analyze the frequency and proportion of Ms. Yang's purchases during discount periods.
+
+We can validate (promote, reach out, market) using the following methods:
+
+1. Issue Ms. Yang coupons for other products (new products) and record the coupon usage.
+2. Push referral promotions to Ms. Yang and record her social influence (to identify KOCs).
+3. Issue Ms. Yang high-value coupons with a high spending threshold to encourage her to increase purchase frequency/average order value.
+4. Etc.
+
+Recently, Ms. Yang noticed that the chain store near her home launched a new braised flavor product. However, after purchasing it once, she did not repurchase. How can the CRM system determine if it's a. an issue with Ms. Yang personally, b. a pricing issue, or c. a quality issue with the braised product?
+Prerequisites: 1. There has been a price-based A/B test for the new product launch. 2. Repurchase interval difference = the difference in time intervals between two consecutive repurchases.
+
+1. Check the repurchase interval difference in different price ranges of the A/B test. If it's independent of the price, then it's not a pricing issue.
+2. Check the repurchase interval difference in different stores. If it's independent of the store, then it's not a store issue (errors caused by individual stores).
+3. Compare the repurchase interval difference of other people with Ms. Yang's. If there's no difference, it's not an issue with Ms. Yang (more likely a product/quality issue).
+4. Otherwise, it's an issue specific to Ms. Yang. If she's a VIP customer, a targeted survey should be issued.
 
 ### Data Governance and Data Flow
 
@@ -99,26 +103,29 @@ In reality, the design of data flow and the SAP system should be quite intuitive
 
 关于这样的一套会员运营营销系统能达成的效果，我可以用一个非常简单的例子，实际应用于大规模会员群体时会有不同，但是例子中的个人实际是一类人群的代表，所以大规模分析时目的和方法是类似的。
 
->杨女士喜欢下班回家的时候在小区门口的连锁店买馅饼。她在这个时间买馅饼是有原因的，因为过了6点半以后海菜馅饼会打折。
->
->对于一个CRM系统，我们是可以知道杨女士而她属于价格敏感，口味不敏感的人，方法如下：
->
->1. 分析杨女士在过去所有的购买记录中，折扣购买的次数与总次数、购买金额与总价格占比
->2. 分析杨女士在打折时间段的购买频次、购买金额的占比
->我们可以用如下方法验证（推广、触达、营销）：
->
->1. 给杨女士发放其他产品（新产品）的优惠券，记录优惠券的消费情况
->2. 给杨女士推送好友裂变互动的推广，记录其社交影响力（可以找到KOC）
->3. 给杨女士发放大额优惠券但有高消费门槛，促使其提高消费频次/消费客单价
->4. 等
->
->杨女士最近发现门口的连锁店推出了卤味新品，但是购买了一次以后没有产生复购，CRM系统要如何知道是 a.杨女士的个人问题 b.定价问题 c.卤味品质问题
->前提：1. 新品上市至少有基于价格的A/B测试 2. 复购间隔差 = 连续两次复购的时间间隔的差值
->
->1. 查看AB测试中不同价格区间的复购间隔差，如果与价格独立，则不是定价问题
->2. 查看不同门店的复购间隔差，如果与门店独立，则不是门店问题（个别门店带来的误差）
->3. 查看其它人的复购间隔差与杨女士的差别，如果没有差别，说明不是杨女士的问题（更有可能是品质/产品的问题）
->4. 否则，是杨女士个人问题，如果是VIP客户，需要发放针对性的问卷进行调研。
+#### 一个小例子
+
+杨女士喜欢下班回家的时候在小区门口的连锁店买馅饼。她在这个时间买馅饼是有原因的，因为过了6点半以后海菜馅饼会打折。
+
+对于一个CRM系统，我们是可以知道杨女士而她属于价格敏感，口味不敏感的人，方法如下：
+
+1. 分析杨女士在过去所有的购买记录中，折扣购买的次数与总次数、购买金额与总价格占比
+2. 分析杨女士在打折时间段的购买频次、购买金额的占比
+
+我们可以用如下方法验证（推广、触达、营销）：
+
+1. 给杨女士发放其他产品（新产品）的优惠券，记录优惠券的消费情况
+2. 给杨女士推送好友裂变互动的推广，记录其社交影响力（可以找到KOC）
+3. 给杨女士发放大额优惠券但有高消费门槛，促使其提高消费频次/消费客单价
+4. 等
+
+杨女士最近发现门口的连锁店推出了卤味新品，但是购买了一次以后没有产生复购，CRM系统要如何知道是 a.杨女士的个人问题 b.定价问题 c.卤味品质问题
+前提：1. 新品上市至少有基于价格的A/B测试 2. 复购间隔差 = 连续两次复购的时间间隔的差值
+
+1. 查看AB测试中不同价格区间的复购间隔差，如果与价格独立，则不是定价问题
+2. 查看不同门店的复购间隔差，如果与门店独立，则不是门店问题（个别门店带来的误差）
+3. 查看其它人的复购间隔差与杨女士的差别，如果没有差别，说明不是杨女士的问题（更有可能是品质/产品的问题）
+4. 否则，是杨女士个人问题，如果是VIP客户，需要发放针对性的问卷进行调研。
 
 ### 数据治理和数据流
 
