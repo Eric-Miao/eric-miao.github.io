@@ -36,10 +36,10 @@ Prior to more detailed experiences, you can find most of my key information belo
 - **• Location Preference:** Bay Area, Seattle, New York, Boston, Remote, Shanghai
 - **• Major Skills:** Python(*6yr+*), Data Analysis(*5yr+*), SQL(*4yr+*), Machine Learning(*3yr+*), LLM Development(*1yr+*), Data Product Development(*1yr+*), etc.
 - **• Languages:** English, Chinese(Mandarin)
-- **• Highlights:**
-  1.Developed and trained an LLM chatbot at Walmart in a team of 2.  
-  2.Designed a segmentation algorithm for consumers at Alibaba in a team of 2.  
-  3.Experience in digital transformation projects in Retail, E-commerce, Catering, Manufacturing, etc.
+- **• Highlights:**  
+    1.Developed and trained an LLM chatbot at Walmart in a team of 2.  
+    2.Designed a segmentation algorithm for consumers at Alibaba in a team of 2.  
+    3.Experience in digital transformation projects in Retail, E-commerce, Catering, Manufacturing, etc.
 
 ## Experiences
 
