@@ -7,6 +7,19 @@ categories: reflections
 description: This is a reflection of how CRM helps better understand customers and how to do better data governance.
 toc:
   sidebar: left
+_styles: >
+  ol {
+    list-style-type: decimal;
+  }
+  ul {
+    list-style-type: disc;
+  }
+  ol ul, ul ul {
+    list-style-type: circle; /* or 'circle', 'square', 'decimal', etc. */
+  }
+  ol ol, ul ol {
+    list-style-type: decimal; /* or 'circle', 'square', 'decimal', etc. */
+  }
 ---
 ## English Version
 
