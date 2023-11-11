@@ -10,15 +10,19 @@ toc:
 _styles: >
   ol {
     list-style-type: decimal;
+    padding-left: 20px;
   }
   ul {
     list-style-type: disc;
+    padding-left: 20px;
   }
   ol ul, ul ul {
     list-style-type: circle; /* or 'circle', 'square', 'decimal', etc. */
+    padding-left: 40px;
   }
   ol ol, ul ol {
     list-style-type: decimal; /* or 'circle', 'square', 'decimal', etc. */
+    padding-left: 40px;
   }
 ---
 ## English Version
