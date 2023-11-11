@@ -56,7 +56,7 @@ Regarding the effects that such a membership operation marketing system can achi
 
 #### A small example
 
-Ms. Yang likes to buy pies from the chain store at the entrance of her community when she gets off work. There's a reason she buys pies at this time, because after 6:30 pm, the seaweed pies are discounted.
+>Ms. Yang likes to buy pies from the chain store at the entrance of her community when she gets off work. There's a reason she buys pies at this time, because after 6:30 pm, the seaweed pies are discounted.
 
 For a CRM system, we can determine that Ms. Yang is price-sensitive but not taste-sensitive, using the following methods:
 
@@ -91,6 +91,8 @@ In reality, the design of data flow and the SAP system should be quite intuitive
 * Based on the core indicator, establish data templates for each stage and test the data flow efficiency for each stage using these templates.
 * After fully understanding the data, construct a comprehensive data system for various company segments and ensure its continuity.
 
+------
+
 ## Chinese Version
 
 ### 数据分析和CRM
@@ -122,7 +124,7 @@ In reality, the design of data flow and the SAP system should be quite intuitive
 
 #### 一个小例子
 
-杨女士喜欢下班回家的时候在小区门口的连锁店买馅饼。她在这个时间买馅饼是有原因的，因为过了6点半以后海菜馅饼会打折。
+>杨女士喜欢下班回家的时候在小区门口的连锁店买馅饼。她在这个时间买馅饼是有原因的，因为过了6点半以后海菜馅饼会打折。
 
 对于一个CRM系统，我们是可以知道杨女士而她属于价格敏感，口味不敏感的人，方法如下：
 
