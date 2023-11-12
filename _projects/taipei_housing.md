@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Taipei Housing Price Analysis and Prediction
 description: Quantitative Analysis of the Impact of Selected Points of Interests on Housing Prices in Taipei, Taiwan
 img: assets/img/taipei_price/ProjectTitle.png
@@ -260,7 +260,7 @@ Furthermore, local cultural, religious, and historical factors are not included 
 ## Appendix
 ### GitHub
 Most of the data sets used in this analysis would be available in the GitHub repository, including the various python notebook files used to produce the final results. The two data sets that would not be available on the repository are the telecommunications signaling activity data set as it requires an individual application to gain access and to use the data set. The links to the origin of the data sets would also be available below, as the updated versions of the data sets may become available for download.  
-Github: https://github.com/Eric-Miao/2022Fall-CIVENG263N-FinalProj/
+- Github: https://github.com/Eric-Miao/2022Fall-CIVENG263N-FinalProj/
 
 ### Data set sources
 
