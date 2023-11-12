@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Taipei Housing Price Analysis and Prediction
 description: Quantitative Analysis of the Impact of Selected Points of Interests on Housing Prices in Taipei, Taiwan
 img: assets/img/taipei_price/ProjectTitle.png
