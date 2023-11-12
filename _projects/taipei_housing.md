@@ -26,9 +26,17 @@ _styles: >
     padding-left: 40px;
   }
 ---
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/taipei_price/ProjectTitle.png" title="title image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 ## Abstract
 
 The housing market in Taiwan has faced significant growth over the past decade without notable premonition. There are various factors that could have contributed to this growth, including vast economic growth, population rise, and new housing policies. However, there are some factors that could impact the homogeneity of housing prices within the city, including the amenity value of the surroundings. For instance, residents’ accessibility to public transportation and business centers can influence the price of housing. Researchers in the past have used various models to predict housing prices by quantifying a city’s urban amenities value using structural and environmental scores, but these studies were often limited due to difficulty in data collection. Therefore, Taipei city in Taiwan is an ideal location to be used as a case study to evaluate the impact  urban amenities on the housing market, since the government publishes a wide range of data publicly, including housing sales, properties, income, and education levels, etc. In addition to the publicly available data, the building of the predictive model would require collecting and analyzing urban amenity data in terms of the Points of Interest (POIs) information for each of the residential houses that is available through the Google Maps API, and projecting the result in comparison to the city’s socioeconomic layout. A non-hierarchical clustering method was used to cluster the residential houses in the city by the number of different POIs in various radii surrounding the house, including 500 meters as the area within a short walkable distance, 1 kilometer as the area that is quickly reachable with a bike, scooter, or a short bus ride, and 3 kilometers which represents an area at a short car ride distance. In order to understand the effect of the nearby POIs, a linear regression model was applied to quantify the impact of various POIs on housing prices. The results have indicated that transportation POIs such as subway stations and bus stations holds a high level of significance in the effect of housing prices, and factors such as libraries, churches, and shopping mall also have a positive effect on housing prices. By projecting and comparing the housing prices with socioeconomic factors, income and activity flow have been identified as the  factors that are correlated with housing prices, and aside from post-graduate degrees, education does not have a significant correlation with housing prices.
+
+You can download the full report [here](/assets/pdf/taipei_housing_report.pdf), or the slides [here](/assets/pdf/taipei_housing_slides.pdf).
 
 ## Introduction 
 
@@ -260,13 +268,13 @@ Furthermore, local cultural, religious, and historical factors are not included 
 ## Appendix
 ### GitHub
 Most of the data sets used in this analysis would be available in the GitHub repository, including the various python notebook files used to produce the final results. The two data sets that would not be available on the repository are the telecommunications signaling activity data set as it requires an individual application to gain access and to use the data set. The links to the origin of the data sets would also be available below, as the updated versions of the data sets may become available for download.  
-- Github: https://github.com/Eric-Miao/2022Fall-CIVENG263N-FinalProj/
+- Github: [https://github.com/Eric-Miao/2022Fall-CIVENG263N-FinalProj/](https://github.com/Eric-Miao/2022Fall-CIVENG263N-FinalProj/)
 
 ### Data set sources
 
-- Real Estate Transactions: https://plvr.land.moi.gov.tw/DownloadOpenData
-- Individual Income Tax: https://data.gov.tw/en/datasets/103066
-- Education: https://data.gov.tw/en/datasets/8409
-- Population: https://tinyurl.com/8wdskxdd
-- Telecommunications Signaling Activity: https://segis.moi.gov.tw/
+- Real Estate Transactions: [https://plvr.land.moi.gov.tw/DownloadOpenData](https://plvr.land.moi.gov.tw/DownloadOpenData)
+- Individual Income Tax: [https://data.gov.tw/en/datasets/103066](https://data.gov.tw/en/datasets/103066)
+- Education: [https://data.gov.tw/en/datasets/8409](https://data.gov.tw/en/datasets/8409)
+- Population: [https://tinyurl.com/8wdskxdd](https://tinyurl.com/8wdskxdd)
+- Telecommunications Signaling Activity: [https://segis.moi.gov.tw/](https://segis.moi.gov.tw/)
 - Point of Interest: Google Maps API
