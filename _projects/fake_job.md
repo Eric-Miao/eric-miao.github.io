@@ -2,7 +2,7 @@
 layout: page
 title: Neural Network Fake Job Detection
 description: Identifying Fraudulent Job Postings Online using Natural Language Processing Machine Learning Models
-img: assets/img/taipei_price/ProjectTitle.png
+img: assets/img/fake_job/ProjectTitle.png
 importance: 1
 category: schoolwork
 toc:
@@ -39,6 +39,10 @@ Fraudulent job postings online usually carry malicious goals and intentions, inc
 
 Therefore, developing a system to detect fraudulent job postings is crucial to protect job seekers and prevent the spread of these malicious activities on job posting platforms. The employment posting websites would be able to use such models to predict, filter, and remove fraudulent postings. This project aims to build and develop a Natural Language Processing (NLP) model that could analyze the textual descriptions of job postings and identify any suspicious patterns or anomalies that may indicate fraudulent activity. This includes utilizing different kinds of machine learning models and algorithms to identify patterns or anomalies, and this system can help job seekers to identify legitimate job postings and avoid falling victim to fraudulent activities. Furthermore, this research can contribute to the development of better fraud detection systems in other domains as well.
 
+Find more details in the 
+- [Github Repo](https://github.com/Eric-Miao/INFO251-Job_Scam_Detection/tree/main)
+- [Project Slides](/assets/pdf/fake_job_slides.pdf)
+- [Report](/assets/pdf/fake_job_report.pdf)
 
 ## Data Acquisition
 The dataset that would be used in this project is the Employment Scam Aegean Dataset (EMSCAD). It is published by the University of the Aegean’s Laboratory of Information and Communication Systems Security. This dataset is publicly available for download and contains 17880 real-life job postings from online platforms, including  17014 legitimate job postings and 866 fraudulent job postings. The instances in the EMSCAD dataset were manually annotated and classified into two categories. 
