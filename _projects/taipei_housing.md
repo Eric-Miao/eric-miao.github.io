@@ -8,6 +8,23 @@ category: schoolwork
 toc:
   sidebar: left
 related_publications: lin_effects_2014, wang_prediction_2022
+_styles: >
+  ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+  }
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  ol ul, ul ul {
+    list-style-type: circle; /* or 'circle', 'square', 'decimal', etc. */
+    padding-left: 40px;
+  }
+  ol ol, ul ol {
+    list-style-type: decimal; /* or 'circle', 'square', 'decimal', etc. */
+    padding-left: 40px;
+  }
 ---
 ## Abstract
 
@@ -76,7 +93,7 @@ The education level, income, population, and telecommunication signal data set w
 In order to better understand the distribution of different residential real estate around the city, visualizations of the distribution of house prices were created to show the areas with higher prices. There are several collections and groups of housing prices in the city, most of the houses in the center of the city tend to have a higher cost per square meter as shown in Figure 1, and there are minor centers all around the city with clusters of medium to high price houses. In addition, the red dots mark the houses with the highest prices in the city, and is most apparent in the center area of the city, with a few that is in areas outside the city center. 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/taipei_price/price_per_m2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -107,7 +124,7 @@ In order to better understand what factors contribute to housing prices, identif
 The K-means clustering method was used in the clustering process, and the number of clusters for POI clusters has been manually set as 4 since, after multiple trials, this number of clusters provides the most interpretable results. The results of the clusters were then assigned back to each of the residential houses and were plotted on Open Street Maps with labels of different colors by using the Folium in Python. The initiate results of the clustering with both the point of interest and the cost per square meter were not ideal, as the price was over-dominant in the clustering results shown in appendix Figure. Therefore, the price feature was removed and the residential houses were clustered based on only points of interest. 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/taipei_price/only_poI_3dist.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -126,7 +143,7 @@ As seen in the diagram above, there are small clusters everywhere in the city wh
 **Residential House Properties:**
 The number of clusters for the clustering on house properties has been manually set as 3 since, after multiple trials, this number of clusters provides the most interpretable results. Again, the initial results of the clustering with both the house properties and the cost per square meter were not ideal, as the price was over-dominant in the clustering results. Therefore, the price feature was removed and the residential houses were clustered based on the house properties alone. 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/taipei_price/house_property.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -149,7 +166,7 @@ The clustering results provided preliminary understanding and insights into how 
 
 The initial model that consist of all 36 POIs features showed 21 features with positive coefficients, 3 neutral features, and 12 features that had negative coefficients. A large number of features were unable to provide a clear picture of how different types of POIs affect housing prices at various distances. Therefore, three additional models were built based on each of the distances defined above as shown in Figure below. As indicated in the diagram, **subway stations** and **bus stations** hold a predominant role and significance in the three distances, while POIs such as libraries, shopping malls, churches, and parks also have a positive impact on the house prices in all three distances. Universities and hospitals have a coefficient close to zero, indicating that it has either a little positive effect or no effect on house prices. However, this is not the case when it comes to nightclubs, supermarkets, police stations, and primary schools. The potential reasons behind the negative coefficient for nightclubs and police stations may be the potential crowd, noise, and unsafeness that are often associated with these locations. However, the fact that supermarkets and primary schools also hold a negative coefficient was surprising and the reasoning behind such a result could be more complex. A potential explanation for this outcome is that the higher the density is for an area, it may require more schools and supermarkets, and in many cases, these areas would have lower house prices compared to areas with lower density. However, an alternative explanation is that amenities such as supermarkets are ideal in a medium distance, as houses right next to supermarkets may also face issues such as a large number of delivery trucks, customers, and an untidy environment. In addition, the reason behind primary school's negative coefficient requires a deeper look into specific cases. However, an insight that could be drawn from the linear models built on POIs is the fact that transportation facilities such as subway and bus stations hold a significant role in determining house prices. This has inspired us to overlay the route map of Taipei's subway system, Taipei Metro, on the housing price map. The darker the markers are on the map indicates houses with higher prices, and it can be seen that the darker markers often cluster around subway hubs or along subway routes. This reaffirms our  understanding that house prices are largely affected by specific types of POIs and in this case transportation POIs. 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/taipei_price/linear_poi_distance.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -171,7 +188,7 @@ The previous sections of the clustering and linear regression model have provide
 
 **Income:** Income is a factor that would determine an individual's purchasing power in their daily life, and this is also seen in the case of residential houses. As seen in Figure below, the right side is a preliminary visualization of the average income in every sub-district in Taipei, and a few hot spots with the highest average income have been marked on the map. An interesting aspect that can also be identified in the diagram is how sub-districts with higher incomes tend to cluster around each other. By overlaying housing price data with the income data on the map, it is easy to recognize that houses with higher prices (marked in dark blue) are usually located in a sub-district with higher average income (marked in dark red). However, this does not signify the relationship between the two factors, as the correlation could happen in both ways. For example, when individuals gain higher income they may choose to move to houses that are more expensive, while individuals living in areas with more expensive houses may have had more resources and opportunities to start with, thus building and buying houses that are more expensive in their home area. The correlation between income and housing prices was also examined in the statistical approach, and the correlation coefficient indicates that the average income of each sub-district has a correlation coefficient of 0.63 with average house prices in the sub-district. 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/taipei_price/income_price.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -195,7 +212,7 @@ The previous sections of the clustering and linear regression model have provide
 \end{figure} -->
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/taipei_price/education_price.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -207,7 +224,7 @@ The previous sections of the clustering and linear regression model have provide
 
 As shown in Figure below, the areas marked in purple are the areas that have a higher ratio, indicating that more people are present in the area in the daytime compared to the nighttime. By overlaying the housing price over the district activity map, it can be identified that the majority of the house marked in these areas are higher priced as it is marked in darker blue markers compared to areas in brown which consist mostly of lighter blue markers that represent houses that are less expensive.  
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/taipei_price/activity_day_day_price.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -252,64 +269,4 @@ Github: https://github.com/Eric-Miao/2022Fall-CIVENG263N-FinalProj/
 - Education: https://data.gov.tw/en/datasets/8409
 - Population: https://tinyurl.com/8wdskxdd
 - Telecommunications Signaling Activity: https://segis.moi.gov.tw/
-
-
-<!-- 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %} -->
+- Point of Interest: Google Maps API
