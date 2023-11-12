@@ -6,6 +6,7 @@ img: assets/img/3.jpg
 importance: 2
 category: work
 giscus_comments: true
+related_publications: einstein1956investigations, einstein1950meaning
 ---
 
 Every project has a beautiful feature showcase page.

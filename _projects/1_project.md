@@ -1,11 +1,13 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Taipei Housing Price Analysis and Prediction
+description: Quantitative Analysis of the Impact of Selected Points of Interests on Housing Prices in Taipei, Taiwan
+img: assets/img/taipei_price/ProjectTitle.png
 importance: 1
-category: work
-related_publications: einstein1956investigations, einstein1950meaning
+category: schoolwork
+toc:
+  sidebar: left
+related_publications: lin_effects_2014, wang_prediction_2022
 ---
 
 Every project has a beautiful feature showcase page.
