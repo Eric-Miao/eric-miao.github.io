@@ -140,7 +140,7 @@ The LSTM (Long Short-Term Memory) model is designed to overcome the gradient van
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/fake_job/fig5.png" title="title image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/fake_job/fig6.png" title="title image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
