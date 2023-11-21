@@ -17,11 +17,28 @@ news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
+_styles: >
+  ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+  }
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  ol ul, ul ul {
+    list-style-type: circle; /* or 'circle', 'square', 'decimal', etc. */
+    padding-left: 40px;
+  }
+  ol ol, ul ol {
+    list-style-type: decimal; /* or 'circle', 'square', 'decimal', etc. */
+    padding-left: 40px;
+  }
 ---
 
 Hi, my name is Yuxin (Eric) Miao.  
 
-I am a Master of [Development Engineering](https://developmentengineering.berkeley.edu/) student at UC Berkeley. Here is an article about a DevEng topic that I was involved in: [link](https://eric-miao.github.io/blog/2023/oped/orange-orchand/).
+I am a Master of [Development Engineering](https://developmentengineering.berkeley.edu/) student at UC Berkeley. Here is an article about a DevEng topic that I was involved in: [link](https://eric-miao.github.io/blog/2023/orange-orchand/).
 
 I graduated from ShanghaiTech University majoring in CS with a B.Eng Degree and a minor in Finance.   
 
@@ -29,20 +46,26 @@ I am interested in the intersection of Machine Learning and social impact and my
 
 Prior to more detailed experiences, you can find most of my key information below.
 
-- **• Github**([link](https://github.com/Eric-Miao))
-- **• LinkedIn**([link](https://www.linkedin.com/in/cnyteric))
-- **• Full CV/Resume**([link](/cv/))
-- **• Name:** Yuxin (Eric) Miao
-- **• Email:** [cnyt-eric@hotmail.com](mailto:cnyt-eric@hotmail.com)/[yuxin_miao@berkeley.edu](mailto:yuxin_miao@berkeley.edu)
-- **• Phone:** +1(510)499-9531
-- **• Career Interests:** ML Engineer, Data Scientist, etc.
-- **• Location Preference:** Bay Area, Seattle, New York, Boston, Remote, Shanghai
-- **• Major Skills:** Python(*6yr+*), Data Analysis(*5yr+*), SQL(*4yr+*), Machine Learning(*3yr+*), LLM Development(*1yr+*), Data Product Development(*1yr+*), etc.
-- **• Languages:** English, Chinese(Mandarin)
-- **• Highlights:**      
-  - 1.Developed and trained an LLM chatbot at Walmart in a team of 2.  
-  - 2.Designed a segmentation algorithm for consumers at Alibaba in a team of 2.  
-  - 3.Experience in digital transformation projects in Retail, E-commerce, Catering, Manufacturing, etc.
+- **Github**([link](https://github.com/Eric-Miao))
+- **LinkedIn**([link](https://www.linkedin.com/in/cnyteric))
+- **Full CV/Resume**([link](/cv/))
+- **Name:** Yuxin (Eric) Miao
+- **Email:** [cnyt-eric@hotmail.com](mailto:cnyt-eric@hotmail.com)/[yuxin_miao@berkeley.edu](mailto:yuxin_miao@berkeley.edu)
+- **Phone:** +1(510)499-9531
+- **Career Interests:** ML Engineer, Data Scientist, etc.
+- **Location Preference:** Bay Area, Seattle, New York, Boston, Remote, Shanghai
+- **Major Skills:** 
+  - Python(*6yr+*)
+  - Data Analysis(*5yr+*)
+  - SQL(*4yr+*)
+  - Machine Learning(*3yr+*)
+  - LLM Development(*1yr+*)
+  - Data Product Development(*1yr+*), etc.
+- **Languages:** English, Chinese(Mandarin)
+- **Highlights:**      
+  1.Developed and trained an LLM chatbot at Walmart in a team of 2.  
+  2.Designed a segmentation algorithm for consumers at Alibaba in a team of 3.  
+  3.Experience in digital transformation projects in Retail, E-commerce, Catering, Manufacturing, etc.
 
 ## Experiences
 
@@ -52,7 +75,7 @@ Before this, from July 2021 to March 2022, I worked as a Data Scientist at Buy-Q
 
 During my undergraduate studies, I was involved in two significant research projects. The first was at the Attitude Research Lab, where we delved into the impact of technical interventions on consumer psychology, with a particular focus on ambivalent attitudes. The second was at the Intelligent Finance Lab. Here, I contributed to a study examining the transformations, and transfer tendencies of Chinese industries over the past three decades.
 
-[Here](https://eric-miao.github.io/blog/2023/oped/profile-storyboard/) is a more detailed storyboard of my experiences.
+[Here](https://eric-miao.github.io/blog/2023/profile-storyboard/) is a more detailed storyboard of my experiences.
 
 ## Digital Transformation
 
