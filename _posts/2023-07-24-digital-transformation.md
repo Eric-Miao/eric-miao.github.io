@@ -4,7 +4,7 @@ title: How I understand digital transformation. | 数字化转型
 date: 2023-07-04 00:00:00
 tags: Digital-Transformation
 categories: reflections
-description: This is a reflection of my thoughts of what digital transformation is and what it means to me.
+description: This is a brief reflection of my thoughts of what digital transformation is and what it means to me.
 toc:
   sidebar: left
 ---

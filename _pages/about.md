@@ -20,8 +20,11 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 Hi, my name is Yuxin (Eric) Miao.  
-I am a Master of [Development Engineering](https://developmentengineering.berkeley.edu/) student at UC Berkeley.  
-I graduated from ShanghaiTech University majoring in CS with a B.Eng Degree and a minor in Finance.  
+
+I am a Master of [Development Engineering](https://developmentengineering.berkeley.edu/) student at UC Berkeley. Here is an article about a DevEng topic that I was involved in: [link](https://eric-miao.github.io/blog/2023/oped/orange-orchand/).
+
+I graduated from ShanghaiTech University majoring in CS with a B.Eng Degree and a minor in Finance.   
+
 I am interested in the intersection of Machine Learning and social impact and my capstone project is Methane Detection and Characterization with Squishy Robotics.  
 
 Prior to more detailed experiences, you can find most of my key information below.
@@ -49,13 +52,15 @@ Before this, from July 2021 to March 2022, I worked as a Data Scientist at Buy-Q
 
 During my undergraduate studies, I was involved in two significant research projects. The first was at the Attitude Research Lab, where we delved into the impact of technical interventions on consumer psychology, with a particular focus on ambivalent attitudes. The second was at the Intelligent Finance Lab. Here, I contributed to a study examining the transformations, and transfer tendencies of Chinese industries over the past three decades.
 
+[Here](https://eric-miao.github.io/blog/2023/oped/profile-storyboard/) is a more detailed storyboard of my experiences.
+
 ## Digital Transformation
 
 Digital Transformation is what I see as my pursuit. Over the years of my experiences in different industries, I have witnessed the power of data and technology, but I have also seen a great number of companies falling behind the trend, especially in traditional industries, where labor in the main force of production but the power of data and technology has yet to be harvested. I want to be part of the change, to help companies and organizations to transform digitally, to help them to be more efficient, more productive and more sustainable.  
 
 I believe there are several different phases of digital transformation. Starting from AUTOMATION, it is the most basic and fundamental step for standard production procedure. INFORMATION is the next step, where data from all departments are collected and stored, and the company starts to make decisions taking data as a reference. INTELLIGENCE is the last step, where data is utilized for prediction and optimization.  
 
-I have seen many companies stuck at the first step, and I want to help them to move forward. You can find more about my thoughts on digital transformation in this [post](/blog/)
+I have seen many companies stuck at the first step, and I want to help them to move forward. You can find more about my thoughts on digital transformation in this [post](https://eric-miao.github.io/blog/2023/oped/)
 
 ## My Lovely Podcast
 
