@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How does Development Engineering rollout with real-world examples
-date: 2023-08-01 00:00:00
+date: 2023-10-01 00:00:00
 tags: Digital-Transformation DevEng
 categories: reflections
 description: Five years ago, I participated in a project to promote local orange industry in a rural mountain village, which turns out to be a great of example of Development Engineering philosophy.
