@@ -26,9 +26,6 @@ _styles: >
     padding-left: 40px;
   }
 ---
-I am a master's student at UC Berkeley, focusing on Development Engineering. With a bachelor's degree in computer science, Machine Learning Engineer is what I am pursing at the moment. The long-term goal for my career development is to promote digital transformation in traditional industries.
-
-## About
 
 At present, I am seeking a full-time position as a Machine Learning Engineer or Data Scientist, starting from January 2023. I recently completed my internship with the Walmart Sourcing Tech team in Shanghai, where I served as a Machine Learning Engineer. During my tenure, I developed and trained an LLM-driven chatbot from scratch to provide 24/7 internal technical support, complementing our human associates.  
 
@@ -36,7 +33,7 @@ From July 2021 to March 2022, I worked as a Data Scientist at Buy-Quickly and th
 
 During my undergraduate studies, I was involved in two significant research projects. The first was at the Attitude Research Lab, where we delved into the impact of technical interventions on consumer psychology, with a particular focus on ambivalent attitudes. The second was at the Intelligent Finance Lab. Here, I contributed to a study examining the transformations, and transfer tendencies of Chinese industries over the past three decades.
 
-## Digital Transformation is what I have been pursuing
+### Digital Transformation is what I have been pursuing
 
 Digital Transformation is what I see as my pursuit. Over the years of my experiences in different industries, I have witnessed the power of data and technology, but I have also seen a great number of companies falling behind the trend, especially in traditional industries, where labor in the main force of production but the power of data and technology has yet to be harvested. I want to be part of the change, to help companies and organizations to transform digitally, to help them to be more efficient, more productive and more sustainable.
 I believe there are several different phases of digital transformation. Starting from AUTOMATION, it is the most basic and fundamental step for standard production procedure. INFORMATION is the next step, where data from all departments are collected and stored, and the company starts to make decisions taking data as a reference. INTELLIGENCE is the last step, where data is utilized for prediction and optimization. I have seen many companies stuck at the first step, and I want to help them to move forward.    
@@ -44,7 +41,7 @@ I believe there are several different phases of digital transformation. Starting
 You can find more about my thoughts on digital transformation in this [post](https://eric-miao.github.io/blog/2023/oped/)
 
 
-## Promote Orange Industry in Rural China with Technology
+### Promote Orange Industry in Rural China with Technology
 
 >- TIME: 03/2018 - 08/2018
 >- PLACE: Shimian, Sichuan, China
@@ -55,16 +52,15 @@ Please check out the following video for more details.
 
 Here is a more comprehensive review of the project: [link](https://eric-miao.github.io/blog/2023/orange-orchand/)
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="https://www.youtube.com/embed/rh0tNTY2uNY?si=zNEUJqHOUhHQ6ftm" class="img-fluid rounded z-depth-1" %}
-    </div>
+
+<div class="col-sm mt-3 mt-md-0">
+    {% include video.html path="https://www.youtube.com/embed/rh0tNTY2uNY?si=zNEUJqHOUhHQ6ftm" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
     This is the video that we made for the local industry.
 </div>
 
-## Upgrade of Inventory Management of Manufacturing Industry
+### Upgrade of Inventory Management of Manufacturing Industry
 
 >- TIME: 12/2020 - 02/2021
 >- PLACE: Jinsung, Yantai, China
@@ -81,7 +77,7 @@ In the winter of 2020, I was involved in a digital transformation project in a m
     The RFID chip that is attached to the tray.
 </div>
 
-## Enhance Efficieny of E-Commerce Analysis with Data Pipeline
+### Enhance Efficieny of E-Commerce Analysis with Data Pipeline
 
 >- TIME: 07/2021 - 03/2022
 >- PLACE: Alibaba/BuyQuickly, Shanghai, China
@@ -102,7 +98,7 @@ At the same time, I devised and implemented an algorithm to score customers in o
 
 To view the whitebook of this project, please refer to this [post](https://eric-miao.github.io/projects/tmall/).
 
-## Large Language Model journey
+### Large Language Model journey
 
 >- TIME: 06/2023 - 08/2023
 >- PLACE: Walmart, Shanghai, China

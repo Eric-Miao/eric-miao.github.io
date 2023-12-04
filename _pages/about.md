@@ -44,7 +44,7 @@ I graduated from ShanghaiTech University majoring in CS with a B.Eng Degree and 
 
 I am interested in the intersection of Machine Learning and social impact and my capstone project was Methane Detection and Characterization with Squishy Robotics.  
 
-[Here](https://eric-miao.github.io/blog/2023/profile-storyboard/) is a more detailed storyboard of my experiences
+[Here](https://eric-miao.github.io/blog/2023/profile-storyboard/) is a more detailed storyboard of my experiences.  
 
 - **Github**([link](https://github.com/Eric-Miao))
 - **LinkedIn**([link](https://www.linkedin.com/in/cnyteric))
@@ -65,7 +65,7 @@ I am interested in the intersection of Machine Learning and social impact and my
 - **Highlights:**      
   1.Developed and trained an LLM chatbot at Walmart in a team of 2.  
   2.Designed a segmentation algorithm for consumers at Alibaba in a team of 3.  
-  3.Experience in digital transformation projects in Retail, E-commerce, Catering, Manufacturing, etc.
+  3.Experience in digital transformation projects in Retail, E-commerce, Catering, Manufacturing, etc.  
 
 ### Digital Transformation
 
