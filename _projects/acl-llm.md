@@ -28,7 +28,10 @@ _styles: >
 ---
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/taipei_price/ProjectTitle.png" title="title image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/acl-llm/architecture.png" title="title image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/acl-llm/lunarlander.png" title="title image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
