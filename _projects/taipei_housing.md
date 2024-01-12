@@ -140,12 +140,6 @@ The K-means clustering method was used in the clustering process, and the number
     Clustering on POIs at 500m, 1km, and 3km
 </div>
 
-<!-- \begin{figure}[!htbp]
-    \centering
-    \includegraphics[width=9cm]{Resources/only_poI_3dist.png}
-    \caption{Clustering on POIs at 500m, 1km, and 3km}
-    \label{fig:only_poi_cluster}
-\end{figure} -->
 As seen in the diagram above, there are small clusters everywhere in the city when only POIs within 500 meters of the radius are considered. However, when the radius expands to 1 kilometer, two centers of cluster 3 appear in the city center, which could be interpreted as different centers of the city. In reality, the orange cluster on the left is known as the historical district, while the orange cluster on the left is closer to the modern-day central business district. When the distance expands to 3 kilometers, it is clear that the city is separated into the inner city center, the middle layer, and the outer circle. This demonstrates that the city center clearly has the highest number of amenities and POIs on average, while the blue clusters have more on average compared to the gray clusters that are usually further away from the city. However, cluster 0 (red cluster) has an abundant number in almost every type of POIs, and this could indicate areas that would potentially have a higher housing price..
 
 **Residential House Properties:**
@@ -158,12 +152,7 @@ The number of clusters for the clustering on house properties has been manually 
 <div class="caption">
     Clustering on Housing Properties
 </div>
-<!-- \begin{figure}[!htbp]
-    \centering
-    \includegraphics[width=9cm]{Resources/house_property.png}
-    \caption{Clustering on Housing Properties}
-    \label{fig:cluster_house_properties}
-\end{figure} -->
+
 
 The results in the figure above are not as intuitive and clear at first sight, since the 3 different clusters are spread out in different areas of the city. The only  insight that could be directly observed from the visualization is cluster 1 (blue cluster) has the lowest amount of markets and points on the map. This could potentially indicate that the houses belonging to this cluster have properties that are rarer compared to other residential properties in the city. 
 
@@ -181,12 +170,7 @@ The initial model that consist of all 36 POIs features showed 21 features with p
 <div class="caption">
     Linear Regression Model - 12 Features at 3 Distances
 </div>
-<!-- \begin{figure} [!htb] 
-    \centering
-    \includegraphics[width=9cm]{Resources/linear_poi_distance.png}
-    \caption{Linear Regression Model - 12 Features at 3 Distances}
-    \label{fig:linear3distance}
-\end{figure} -->
+
 In addition to the linear regression model based on the different POIs, an additional linear regression model based on the house properties was created to show the relationship between different house properties and their effect on house prices. This would help to facilitate the understanding of the problem beyond geospatial factors. The type of houses would usually have a significant impact on the house prices, and townhouses have a high positive coefficient compared to other types of buildings. In addition, construction methods would also impact housing prices, for example, specific construction methods such as steel-reinforced concrete would have a higher positive coefficient compared to other methods. However, it was interesting to see factors such as the number of rooms, floors, and even the ages of the houses do not have a significant impact on housing prices as they all hold a coefficient pretty close to zero.
 
 ### Socioeconomic Correlation
@@ -204,20 +188,8 @@ The previous sections of the clustering and linear regression model have provide
     Income per Sub-district and Overlay of House Prices 
 </div>
 
-<!-- \begin{figure} [!htb] 
-    \centering
-    \includegraphics[width=9cm]{Resources/income_price.png}
-    \caption{Income per Sub-district and Overlay of House Prices }
-    \label{fig:income_price}
-\end{figure} -->
 
-**Education:** The data set acquired had a total of 46 features, ranging from primary school education to doctorate degrees. The data set also distinguish if the degree was awarded or incomplete, and the number of male and females for each education level/status. Our initial analysis and visualization have shown that the difference between each sub-district is the greatest at the doctorate level, and the differences slowly dissolve after the undergraduate level. Therefore, the three top degree levels,  including a doctorate, master's, and undergraduate degrees have been selected for further analysis. As shown in Figure below, there are several hot spots and sub-districts that can be identified for doctorate and masters level of education, and by overlaying the housing price data on top of it, it can be seen that the sub-districts with a larger number of people holding higher level educating degrees may correlate with higher house prices to a certain extent. However, the correlation is not as strong as income, since there are many sub-districts with a larger number of people with higher education degrees but do not have houses that are highly priced in the sub-district. However, when the correlation is later examined in statistical methods, the correlation coefficient for any three levels of education examined does not exceed 0.33 at best. 
-<!-- \begin{figure} [!htb] 
-    \centering
-    \includegraphics[width=9cm]{Resources/education_price.png}
-    \caption{Education Level for Sub-district and Overlay of House Prices }
-    \label{fig:education_price}
-\end{figure} -->
+**Education:** The data set acquired had a total of 46 features, ranging from primary school education to doctorate degrees. The data set also distinguish if the degree was awarded or incomplete, and the number of male and females for each education level/status. Our initial analysis and visualization have shown that the difference between each sub-district is the greatest at the doctorate level, and the differences slowly dissolve after the undergraduate level. Therefore, the three top degree levels,  including a doctorate, master's, and undergraduate degrees have been selected for further analysis. As shown in Figure below, there are several hot spots and sub-districts that can be identified for doctorate and masters level of education, and by overlaying the housing price data on top of it, it can be seen that the sub-districts with a larger number of people holding higher level educating degrees may correlate with higher house prices to a certain extent. However, the correlation is not as strong as income, since there are many sub-districts with a larger number of people with higher education degrees but do not have houses that are highly priced in the sub-district. However, when the correlation is later examined in statistical methods, the correlation coefficient for any three levels of education examined does not exceed 0.33 at best.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -231,6 +203,7 @@ The previous sections of the clustering and linear regression model have provide
 **Human Activity:** The human activity data set is based on the average telecommunication signaling activity at each of the district levels recorded in 2020. By measuring and observing districts that have a higher inflow of people during the daytime on a workday in comparison to weekends. This would highlight districts with more people working there in the daytime on work days and leaving the district after work. Three different analysis was completed to evaluate the different activity in each of the districts, including comparing the daytime count between weekday and weekend, the nighttime count between weekday and weekends, and the daytime versus nighttime count on a workday. In order to analyze the change in activity in a mathematical approach, a ratio would be calculated for each scenario. For the first two scenarios, the ratio is calculated by dividing the workday count over the weekend, and for the third scenario, the ratio would be calculated by diving the workday daytime count against the workday night time count. The resulting ratio would be a number that is either zero, greater than one, or smaller than 1. When the number is greater than one, it would represent that the district has a higher activity count in the daytime, and when the number is smaller than one it would represent that the district has an activity count in the nighttime. 
 
 As shown in Figure below, the areas marked in purple are the areas that have a higher ratio, indicating that more people are present in the area in the daytime compared to the nighttime. By overlaying the housing price over the district activity map, it can be identified that the majority of the house marked in these areas are higher priced as it is marked in darker blue markers compared to areas in brown which consist mostly of lighter blue markers that represent houses that are less expensive.  
+
 <div class="row justify-content-sm-center">
     <div class="col mt-3 mt-md-0">
         {% include figure.html path="assets/img/taipei_price/activity_day_day_price.png" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -239,12 +212,7 @@ As shown in Figure below, the areas marked in purple are the areas that have a h
 <div class="caption">
     Activity Ratio of Workday Daytime to Weekend Daytime
 </div>
-<!-- \begin{figure} [h] 
-    \centering
-    \includegraphics[width=9cm]{Resources/activity_day_day_price.png}
-    \caption{Activity Ratio of Workday Daytime to Weekend Daytime}
-    \label{fig:activity_day_day_price}
-\end{figure} -->
+
 In addition, most districts do not have significant differences as most of the districts have more activity on a workday, there is only one district to the bottom left that has more weekend activity than workdays. As shown in the diagram, districts on the exterior circle of the city faces would usually have less activity count in the daytime, as most people would travel to work in the city center, while districts in the city center or business districts would have more activity in the daytime compared to the night time on a workday. 
 
 ## Discussion and Conclusion

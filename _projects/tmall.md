@@ -1,6 +1,6 @@
 ---
 layout: page
-title: High-end Fashion Accessories Industry Consumer Groups White Paper
+title: China E-Commerce luxury consumer portrait and insight
 description: This is a project that delves into the diverse consumer groups within the high-end fashion accessories industry, offering operational insights and strategic recommendations.
 img: assets/img/high_end_fashion/high-end-fashion-title.png
 importance: 1
