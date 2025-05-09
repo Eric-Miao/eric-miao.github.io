@@ -7,5 +7,10 @@
     "devDependencies": {
         "@tailwindcss/typography": "^0.5.10",
         "gh-pages": "^6.3.0"
+    },
+    "scripts": {
+        "dev": "static dev",
+        "build": "static build",
+        "deploy": "npm run build && gh-pages -d _site"
     }
 }
